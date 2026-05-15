@@ -1,13 +1,9 @@
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
 import HoverLinks from "./HoverLinks";
+import { MdEmail, MdPhone } from "react-icons/md";
 
 const SocialIcons = () => {
   useEffect(() => {
@@ -61,16 +57,7 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/akashrmalhotra"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.linkedin.com/in/akashrmalhotra/"
+            href="https://linkedin.com/in/rohanpanja"
             target="_blank"
             rel="noreferrer"
           >
@@ -79,30 +66,31 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.youtube.com/@Leftbraincoder"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaYoutube />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.instagram.com/leftbraincoder/"
+            href="https://www.instagram.com/r_o_h_a_n_panja?igsh=MWFyYmtmcjRvMDY4Mg%3D%3D&utm_source=qr"
             target="_blank"
             rel="noreferrer"
           >
             <FaInstagram />
           </a>
         </span>
+        <span>
+          <a href="mailto:panjarohan@gmail.com">
+            <MdEmail />
+          </a>
+        </span>
+        <span>
+          <a href="tel:+917586839467">
+            <MdPhone />
+          </a>
+        </span>
       </div>
       <a
         className="resume-button"
-        href="/Akash_Malhotra.pdf"
+        href="https://linkedin.com/in/rohanpanja"
         target="_blank"
         rel="noreferrer"
       >
-        <HoverLinks text="RESUME" />
+        <HoverLinks text="PROFILE" />
         <span>
           <TbNotes />
         </span>

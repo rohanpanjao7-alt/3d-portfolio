@@ -11,65 +11,90 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
+                href="https://linkedin.com/in/rohanpanja"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                LinkedIn - rohanpanja
               </a>
             </p>
+            <p>
+              <a href="mailto:panjarohan@gmail.com" data-cursor="disable">
+                panjarohan@gmail.com
+              </a>
+            </p>
+            <p>
+              <a href="tel:+917586839467" data-cursor="disable">
+                +91 7586839467 / +91 8637560007
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://www.instagram.com/r_o_h_a_n_panja?igsh=MWFyYmtmcjRvMDY4Mg%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noreferrer"
+                data-cursor="disable"
+              >
+                Instagram - @r_o_h_a_n_panja
+              </a>
+            </p>
+            <p>Tamluk, Purba Medinipur, West Bengal</p>
+          </div>
+          <div className="contact-box">
             <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
+              B.Tech in Computer Science and Engineering, Narula Institute of
+              Technology, Kolkata - 2019-2023 | CGPA: 8.4
             </p>
             <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
+              Higher Secondary, Tamluk Hamilton High School - 2017-2019 |
+              79.8%
+            </p>
+            <p>
+              Secondary, Tamluk Hamilton High School - 2016-2017 | 90.03%
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Certifications</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://linkedin.com/in/rohanpanja"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              GitHub <MdArrowOutward />
+              Advanced Selenium Testing <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://linkedin.com/in/rohanpanja"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              LinkedIn <MdArrowOutward />
+              Automation Anywhere Advanced RPA <MdArrowOutward />
             </a>
             <a
-              href="https://www.youtube.com/@Leftbraincoder"
+              href="https://linkedin.com/in/rohanpanja"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              YouTube <MdArrowOutward />
+              Persistent Martian Program <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/leftbraincoder/"
+              href="https://linkedin.com/in/rohanpanja"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Instagram <MdArrowOutward />
+              Highway to High Radius Internship <MdArrowOutward />
             </a>
-          </div>
-          <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Built for <br /> <span>Rohan Panja</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

@@ -11,6 +11,7 @@ interface Props {
 const WorkImage = (props: Props) => {
   const [isVideo, setIsVideo] = useState(false);
   const [video, setVideo] = useState("");
+
   const handleMouseEnter = async () => {
     if (props.video) {
       setIsVideo(true);
@@ -21,24 +22,38 @@ const WorkImage = (props: Props) => {
     }
   };
 
-  return (
-    <div className="work-image">
-      <a
-        className="work-image-in"
-        href={props.link}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={() => setIsVideo(false)}
-        target="_blank"
-        data-cursor={"disable"}
-      >
-        {props.link && (
+  if (props.link) {
+    return (
+      <div className="work-image">
+        <a
+          className="work-image-in"
+          href={props.link}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={() => setIsVideo(false)}
+          target="_blank"
+          rel="noreferrer"
+          data-cursor="disable"
+        >
           <div className="work-link">
             <MdArrowOutward />
           </div>
-        )}
+          <img src={props.image} alt={props.alt} />
+          {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
+        </a>
+      </div>
+    );
+  }
+
+  return (
+    <div className="work-image">
+      <div
+        className="work-image-in"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={() => setIsVideo(false)}
+      >
         <img src={props.image} alt={props.alt} />
         {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
-      </a>
+      </div>
     </div>
   );
 };

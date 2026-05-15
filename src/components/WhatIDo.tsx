@@ -7,6 +7,7 @@ const WhatIDo = () => {
   const setRef = (el: HTMLDivElement | null, index: number) => {
     containerRef.current[index] = el;
   };
+
   useEffect(() => {
     if (ScrollTrigger.isTouch) {
       containerRef.current.forEach((container) => {
@@ -16,6 +17,7 @@ const WhatIDo = () => {
         }
       });
     }
+
     return () => {
       containerRef.current.forEach((container) => {
         if (container) {
@@ -24,6 +26,7 @@ const WhatIDo = () => {
       });
     };
   }, []);
+
   return (
     <div className="whatIDO">
       <div className="what-box">
@@ -87,20 +90,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>TEST AUTOMATION</h3>
+              <h4>Reliable UI Automation for Enterprise Apps</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                I design maintainable automation for complex insurance and
+                enterprise workflows using scalable page-object based
+                frameworks, stable selectors, and reusable test design.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Playwright</div>
+                <div className="what-tags">Selenium WebDriver</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">TestNG</div>
+                <div className="what-tags">POM</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +128,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>QA DELIVERY</h3>
+              <h4>Faster Releases with Better Coverage</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                My focus is reducing regression time, improving traceability,
+                and supporting quality across Agile teams through functional
+                testing, reporting, and continuous improvement.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Jenkins CI/CD</div>
+                <div className="what-tags">Jira</div>
+                <div className="what-tags">ALM Octane</div>
+                <div className="what-tags">Postman</div>
+                <div className="what-tags">BDD / TDD</div>
+                <div className="what-tags">Agile / Scrum</div>
               </div>
               <div className="what-arrow"></div>
             </div>

@@ -15,58 +15,46 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Automation Tester</h4>
+                <h5>Cognizant Technology Solutions | Travelers Insurance</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2025-Present</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Migrated insurance form automation from Selenium Java to
+              Playwright JavaScript, improving execution speed by 45 percent and
+              reducing regression cycles from 2 days to 5 hours. Mentored 3 QA
+              engineers and established Playwright standards across the team.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Quality Engineer</h4>
+                <h5>Cognizant Technology Solutions | Travelers Insurance</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2023-2025</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Delivered manual and functional testing for BI insurance forms and
+              maintained 700 plus Selenium scripts with POM and TestNG. Reduced
+              regression time from 3 days to 6 hours and improved traceability
+              through ALM Octane integration.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Intern</h4>
+                <h5>Cognizant Technology Solutions | QEA Selenium with Java</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Completed automation internship work with the Identify Courses
+              project, covering browser navigation, form handling, data
+              validation, and execution control using Selenium, POM, and
+              TestNG.
             </p>
           </div>
         </div>
